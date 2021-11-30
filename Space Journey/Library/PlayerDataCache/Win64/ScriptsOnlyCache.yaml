@@ -105,17 +105,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2840}
     - Class: 114
-      Script: {instanceID: 3350}
+      Script: {instanceID: 3352}
     - Class: 114
-      Script: {instanceID: 3390}
+      Script: {instanceID: 3392}
     - Class: 114
-      Script: {instanceID: 3520}
+      Script: {instanceID: 3522}
     - Class: 114
-      Script: {instanceID: 3608}
+      Script: {instanceID: 3610}
     - Class: 114
-      Script: {instanceID: 4066}
+      Script: {instanceID: 4068}
     - Class: 114
-      Script: {instanceID: 4400}
+      Script: {instanceID: 4402}
+    - Class: 114
+      Script: {instanceID: 15966}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -219,7 +221,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 7deda793097b43bdd0632dcbfd40153a
+      Hash: 5ca6025c90c940739606f2a2e7ecc720
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AsteroidScript
@@ -531,7 +533,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 7deda793097b43bdd0632dcbfd40153a
+      Hash: 5ad73db3020d7a515629d6a3b9f0996f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LittlePlanetScript
@@ -543,7 +545,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 5269b780dc4370f0e1c33d5468e2f925
+      Hash: ee093e68cd7001c03ff34e780d2908d8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Spaceship
@@ -652,4 +654,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/GameplayScene.unity
-  playerPath: /Users/vadim/Desktop/SpaceshipWindows/Space Journey.exe
+  playerPath: /Users/vadim/Desktop/Vitya Piska/Space Journey.exe

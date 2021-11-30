@@ -57,6 +57,15 @@ public class BattleScript : MonoBehaviour
         txtStrengthPirates.text = "strength of pirates: " + piratesStrength;
         txtStrengthSpaceship.text = "your strength: " + spaceshipStrength;
 
+        if (piratesStrength <= 0)
+        {
+            EndBattle(true);
+        }
+        else if (spaceshipStrength <= 0)
+        {
+            EndBattle(false);
+        }
+
         timer += Time.deltaTime;
         if (timer >= 0.5f)
         {
@@ -72,15 +81,6 @@ public class BattleScript : MonoBehaviour
                 Attack(attackIndex);
                 timer = 0;
             }
-        }
-
-        if (piratesStrength <= 0)
-        {
-            EndBattle(true);
-        }
-        else if (spaceshipStrength <= 0)
-        {
-            EndBattle(false);
         }
     }
 
@@ -108,15 +108,17 @@ public class BattleScript : MonoBehaviour
         //saving the result in txt file
         if (isWin)
         {
-            MakeLog("win"); //log win;
             Destroy(this.gameObject);
             spaceship.setStrength(PlayerPrefs.GetFloat("strength"));
             spaceship.countBattleWins++;
+
+            MakeLog("win"); //log win;
         }
         else
         {
-            MakeLog("lose"); //log lose;
             spaceship.setStrength(PlayerPrefs.GetFloat("strength"));
+
+            MakeLog("lose"); //log lose;
         }
     }
 

@@ -19,8 +19,6 @@ ScriptsOnlyBuild:
     - UpgradeSpaceship
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -31,8 +29,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEditor.UI.dll:
-    - UnityEditor.UI.ImageEditor
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -120,6 +116,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4068}
     - Class: 114
       Script: {instanceID: 4402}
+    - Class: 114
+      Script: {instanceID: 18106}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -547,7 +545,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: 44a70bd85a363a9eb546a7bd05129599
+      Hash: ee093e68cd7001c03ff34e780d2908d8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Spaceship
